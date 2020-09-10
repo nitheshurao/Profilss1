@@ -26,5 +26,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm i
     - run: src/index.js
-    - run: npm start
+    - run: npm text
       
