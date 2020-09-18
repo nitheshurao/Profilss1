@@ -26,6 +26,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
 
-    - run: src/index.html
+    - run: src/index.js
     - run: npm text
       
