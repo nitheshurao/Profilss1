@@ -1,1 +1,1 @@
-web: node registerServiceWorker
+web: node src/index.js
