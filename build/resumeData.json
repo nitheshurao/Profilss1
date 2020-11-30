@@ -1,3 +1,4 @@
+
 {
   "main": {
     "name": "Nithesh",
@@ -14,8 +15,8 @@
       "state": "mangalore",
       "zip": "574197"
     },
-    "website": "RESUME NITHESH ##!.pdf",
-    "resumedownload": " RESUME NITHESH ##!.pdf",
+    "website": " ",
+    "resumedownload": " ",
     "social": [
       {
         "name": "facebook",
@@ -40,7 +41,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": " i    ",
     "education": [
       {
         "school": "Yenepoya Institute of Technology",
@@ -53,14 +54,14 @@
       {
         "company": " ",
         "title": " ",
-        "years": "April 2020 - Present",
-        "description": "Teaching ReactJS to thousands of students."
+        "years": " ",
+        "description": " "
       },
       {
-        "company": "Lindar Media",
-        "title": "Software Engineer",
-        "years": "Nov 2019 - April 2020",
-        "description": "Building MrQ, a gambling website."
+        "company": "",
+        "title": " ",
+        "years": " ",
+        "description": " "
       }
     ],
     "skills": [
@@ -78,7 +79,11 @@
       },
       {
         "name": "java",
-        "level": "55%"
+        "level": "75%"
+      },
+      {
+        "name": "python",
+        "level": "85%"
       },
       {
         "name": "HTML5",
@@ -87,6 +92,10 @@
       {
         "name": "Mysql",
         "level": "60%"
+      },
+      {
+        "name": "Data Science",
+        "level": "75%"
       }
     ]
   },
@@ -95,13 +104,14 @@
       {
         "title": "Govt p.u college",
         "category": "Govt.p.u.collge website built with javaScript and html ,css .",
-        "image": "clg.png",
-        "url": "https://gpucvenur.website/"
+        "image": "./src/images/download.jpeg",
+        "url": "https://gpucvenur.website/",
+        "button":" "
       },
       {
         "title": " instagram ",
         "category": "instagram Clone built with  ReactJS, NodeJS",
-        "image": "inst.png",
+        "image": "/inst.png",
         "url": "https://github.com/nitheshurao/insta_clone"
       },
       {

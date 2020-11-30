@@ -11,9 +11,9 @@
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
 
-    /* s
+    /* header styles
    ------------------------------------------------------------------ */
-   er-text h1 {
+   header .banner-text h1 {
       font: 80px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
@@ -25,18 +25,18 @@
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
 
-    /* s
+    /* header styles
    ------------------------------------------------------------------ */
-   er { padding-bottom: 12px; }
-   er-text h1 {
+   header .banner { padding-bottom: 12px; }
+   header .banner-text h1 {
       font: 78px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;      
    }
-   er-text h3 {
+   header .banner-text h3 {
       font: 17px/1.9em 'librebaskerville-regular', serif;
       width: 80%;
    }
-   er-text hr {
+   header .banner-text hr {
       width: 65%;
       margin: 12px auto;
    }
@@ -64,7 +64,7 @@
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
-   #testimonials .1:before {
+   #testimonials .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
    }
@@ -75,7 +75,7 @@
 
     /* Call to Action Section
    ------------------------------------------------------------------- */
-   #call-to-action .1:before {
+   #call-to-action .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
    }
@@ -83,7 +83,7 @@
    /* Contact Section
    ------------------------------------------------------------------- */
    #contact .section-head { margin-bottom: 30px; }
-   #contact .1:before {
+   #contact .header-col h1:before {
       font-size: 66px;
       line-height: 66px;
    }
@@ -160,7 +160,7 @@
 	#nav-wrap:target > ul#nav	{
 	   display: block;
       padding: 30px 20px 48px 20px;
-      background: #1f2024;
+      background: #d7d8dd;
       margin: 0 30px;
       clear: both;
    }
@@ -185,32 +185,32 @@
    }  
 
 
-   /* s
+   /* Header Styles
    -------------------------------------------------------------------- */
-   er {
+   header .banner {
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   er-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
-   er-text h3 {
+   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
    }
-   er-text hr {
+   header .banner-text hr {
       width: 80%;
       margin: 18px auto;
    }
 
-   /* l links */
-   al {
+   /* header social links */
+   header .social {
       margin: 18px 0 24px 0;
       font-size: 24px;
       line-height: 36px;      
    }
-   al li { margin: 0 10px; }
+   header .social li { margin: 0 10px; }
 
     /* scrolldown link */
-   lldown { display: none; }
+   header .scrolldown { display: none; }
 
 
    /* About Section
@@ -226,7 +226,7 @@
 
    /* Resume Section
    --------------------------------------------------------------------- */
-   #resume .
+   #resume .header-col {
       padding-top: 0;
       margin-bottom: 48px;
       text-align: center;
@@ -248,13 +248,13 @@
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
    }
    #call-to-action h1 span { display: block; }
-   #call-to-action .1:before { content: none; }
+   #call-to-action .header-col h1:before { content: none; }
    #call-to-action p { font-size: 15px; }
 
 
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
-   #portfolio-wrer .columns { margin-bottom: 40px; }
+   #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
 
@@ -268,7 +268,7 @@
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
    }
    #testimonials h1 span { display: block; }
-   #testimonials .1:before { content: none; }
+   #testimonials .header-col h1:before { content: none; }
    #testimonials blockquote { padding-bottom: 24px; }
    #testimonials blockquote p {
       font-size: 20px;
@@ -293,8 +293,8 @@
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
    }  
    #contact h1 span { display: block; }
-   #contact . padding-top: 0; }
-   #contact .1:before { content: none;	}
+   #contact .header-col { padding-top: 0; }
+   #contact .header-col h1:before { content: none;	}
    #contact .section-head p.lead { text-align: center;}
 
    /* form */
@@ -347,21 +347,21 @@
    -------------------------------------------------------------------- */
    #nav-wrap ul#nav { width: auto; float: none; }
 
-   /* s
+   /* header styles
    -------------------------------------------------------------------- */
-   er { padding-top: 24px; }
-   er-text h1 {
+   header .banner { padding-top: 24px; }
+   header .banner-text h1 {
       font: 40px/1.1em 'opensans-bold', sans-serif;      
       margin: 0 auto 24px auto;
    }
-   er-text h3 {
+   header .banner-text h3 {
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
   
-   /* l links */
-   al { font-size: 20px;}
-   al li { margin: 0 6px; }
+   /* header social links */
+   header .social { font-size: 20px;}
+   header .social li { margin: 0 6px; }
 
    /* footer
    ------------------------------------------------------------------------ */
